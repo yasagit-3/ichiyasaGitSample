@@ -577,4 +577,252 @@ return (
 }
 
 
+export default function ProblemSection() {
+return (
+<section className="max-w-7xl mx-auto px-6 py-20">
 
+    {/* タイトル */}
+    <div className="text-center mb-16">
+        <h2 className="text-4xl font-bold mb-4">
+            こんな悩み、ありませんか？
+        </h2>
+
+        <p className="text-gray-500 text-lg">
+            若手社員のキャリア形成には、
+            将来像が見えない・相談相手が見つからない
+            といった課題があります。
+        </p>
+    </div>
+
+    {/* 課題 */}
+    <div className="grid md:grid-cols-3 gap-6 mb-20">
+
+        <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+            <h3 className="font-bold text-xl mb-4">
+                🔍 若手社員 - 将来像が見えない
+            </h3>
+
+            <ul className="space-y-2 text-gray-500">
+                <li>今の業務が将来にどう繋がるかわからない</li>
+                <li>どんなスキルを身につければよいかわからない</li>
+                <li>ロールモデルとなる先輩が見つからない</li>
+            </ul>
+
+            <p className="mt-4 font-semibold text-blue-600">
+                → キャリアの方向性が描けない
+            </p>
+        </div>
+
+        <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+            <h3 className="font-bold text-xl mb-4">
+                📚 中堅社員 - 経験が共有されない
+            </h3>
+
+            <ul className="space-y-2 text-gray-500">
+                <li>経験を後輩へ伝える機会が少ない</li>
+                <li>相談対応が個別対応になりがち</li>
+                <li>知見が組織に蓄積されない</li>
+            </ul>
+
+            <p className="mt-4 font-semibold text-blue-600">
+                → ノウハウが属人化する
+            </p>
+        </div>
+
+        <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+            <h3 className="font-bold text-xl mb-4">
+                🏢 組織 - 人材育成が難しい
+            </h3>
+
+            <ul className="space-y-2 text-gray-500">
+                <li>若手のキャリア不安が大きい</li>
+                <li>ロールモデルが見えづらい</li>
+                <li>育成支援の仕組みが不足している</li>
+            </ul>
+
+            <p className="mt-4 font-semibold text-blue-600">
+                → エンゲージメント低下につながる
+            </p>
+        </div>
+
+    </div>
+
+    {/* 解決策 */}
+    <div className="text-center mb-16">
+        <h2 className="text-4xl font-bold mb-4">
+            Career Assistが解決します
+        </h2>
+
+        <p className="text-gray-500 text-lg">
+            先輩社員のキャリアを可視化し、
+            AIを活用してキャリア形成を支援します。
+        </p>
+    </div>
+
+    <div className="grid md:grid-cols-[1fr_auto_1fr] gap-6 items-center mb-20">
+
+        {/* 左 */}
+        <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+            <h3 className="font-bold text-2xl mb-4">
+                Career Assist
+            </h3>
+
+            <ul className="space-y-2">
+                <li>🔍 社員検索機能</li>
+                <li>🌳 キャリアツリー閲覧</li>
+                <li>💬 AI質問箱</li>
+                <li>🗺️ キャリアロードマップ作成</li>
+            </ul>
+        </div>
+
+        {/* 矢印 */}
+        <div className="text-center">
+            <div className="text-5xl font-bold text-blue-500">
+                →
+            </div>
+
+            <p className="font-semibold mt-2">
+                キャリア形成
+            </p>
+        </div>
+
+        {/* 右 */}
+        <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+            <h3 className="font-bold text-2xl mb-4">
+                将来像の具体化
+            </h3>
+
+            <ul className="space-y-2">
+                <li>🎯 目標キャリアの明確化</li>
+                <li>📈 必要スキルの把握</li>
+                <li>👨‍🏫 ロールモデル発見</li>
+                <li>🚀 具体的な成長計画作成</li>
+            </ul>
+        </div>
+
+    </div>
+
+    {/* メリット */}
+    <div className="mb-16">
+        <h2 className="text-center text-4xl font-bold mb-10">
+            Career Assistのメリット
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6">
+
+            <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+                <h3 className="font-bold text-xl mb-4">
+                    👨‍💻 若手社員
+                </h3>
+
+                <ul className="space-y-2">
+                    <li>キャリアの選択肢が見える</li>
+                    <li>ロールモデルを発見できる</li>
+                    <li>将来への不安を軽減できる</li>
+                </ul>
+            </div>
+
+            <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+                <h3 className="font-bold text-xl mb-4">
+                    🧑‍🏫 先輩社員
+                </h3>
+
+                <ul className="space-y-2">
+                    <li>経験や知見を共有できる</li>
+                    <li>後輩育成を効率化できる</li>
+                    <li>ナレッジを資産化できる</li>
+                </ul>
+            </div>
+
+            <div className="bg-white rounded-3xl shadow p-8 border border-gray-100">
+                <h3 className="font-bold text-xl mb-4">
+                    🏢 企業
+                </h3>
+
+                <ul className="space-y-2">
+                    <li>人材育成を促進</li>
+                    <li>知見共有を強化</li>
+                    <li>離職防止に貢献</li>
+                    <li>キャリア自律を支援</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    {/* AI質問箱の価値 */}
+    <div className="mb-20">
+
+        <h2 className="text-center text-4xl font-bold mb-10">
+            AI質問箱で得られること
+        </h2>
+
+        <div className="grid md:grid-cols-[1fr_auto_1fr_auto_1.5fr] gap-6 items-center">
+
+            <div className="bg-white rounded-3xl shadow p-8 text-center">
+                <div className="w-16 h-16 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    ①
+                </div>
+
+                <h3 className="font-bold mb-2">
+                    先輩を探す
+                </h3>
+
+                <p className="text-gray-500">
+                    ロールモデル検索
+                </p>
+            </div>
+
+            <div className="hidden md:block text-4xl text-center">
+                →
+            </div>
+
+            <div className="bg-white rounded-3xl shadow p-8 text-center">
+                <div className="w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    ②
+                </div>
+
+                <h3 className="font-bold mb-2">
+                    AI質問箱
+                </h3>
+
+                <p className="text-gray-500">
+                    キャリアの疑問を質問
+                </p>
+            </div>
+
+            <div className="hidden md:block text-4xl text-center">
+                →
+            </div>
+
+            <div className="bg-slate-50 rounded-3xl shadow p-8">
+                <h3 className="font-bold text-xl mb-4">
+                    得られるメリット
+                </h3>
+
+                <ul className="space-y-3">
+                    <li>💡 キャリアの解像度向上</li>
+                    <li>📈 必要なスキル・経験を把握</li>
+                    <li>🎯 将来目標の明確化</li>
+                    <li>🗺️ キャリアロードマップ作成</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    {/* メッセージ */}
+    <div className="bg-gray-50 rounded-3xl border border-gray-200 p-10 text-center">
+        <h3 className="text-2xl font-bold mb-4">
+            キャリアの正解は一つではありません
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+            Career Assistは、先輩たちの経験を参考にしながら、
+            自分らしいキャリアを描くための第一歩を支援します。
+        </p>
+    </div>
+
+</section>
+);
+}
