@@ -160,3 +160,182 @@
 
 </body>
 </html>
+
+
+
+
+export default function ProblemSection() {
+return (
+<section className="container py-5">
+    {/* タイトル */}
+    <div className="text-center mb-5">
+        <h2 className="fw-bold">こんな悩み、ありませんか？</h2>
+        <p className="text-muted mt-3">
+            若手社員のキャリア形成には、将来像が見えない・相談相手が見つからないといった課題があります。
+        </p>
+    </div>
+
+    {/* 課題 */}
+    <div className="row g-4 mb-5">
+        <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 rounded-4">
+                <div className="card-body">
+                    <h5 className="fw-bold mb-3">
+                        🔍 若手社員 - 将来像が見えない
+                    </h5>
+                    <ul className="text-muted">
+                        <li>今の業務が将来にどう繋がるかわからない</li>
+                        <li>どんなスキルを身につければよいかわからない</li>
+                        <li>ロールモデルとなる先輩が見つからない</li>
+                    </ul>
+                    <p className="mt-3 fw-semibold">
+                        → キャリアの方向性が描けない
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 rounded-4">
+                <div className="card-body">
+                    <h5 className="fw-bold mb-3">
+                        📚 中堅社員 - 経験が共有されない
+                    </h5>
+                    <ul className="text-muted">
+                        <li>経験を後輩へ伝える機会が少ない</li>
+                        <li>相談対応が個別対応になりがち</li>
+                        <li>知見が組織に蓄積されない</li>
+                    </ul>
+                    <p className="mt-3 fw-semibold">
+                        → ノウハウが属人化する
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 rounded-4">
+                <div className="card-body">
+                    <h5 className="fw-bold mb-3">
+                        🏢 組織 - 人材育成が難しい
+                    </h5>
+                    <ul className="text-muted">
+                        <li>若手のキャリア不安が大きい</li>
+                        <li>ロールモデルが見えづらい</li>
+                        <li>育成支援の仕組みが不足している</li>
+                    </ul>
+                    <p className="mt-3 fw-semibold">
+                        → エンゲージメント低下につながる
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* 解決策 */}
+    <div className="text-center mb-5">
+        <h2 className="fw-bold">Career Assistが解決します</h2>
+        <p className="text-muted">
+            先輩社員のキャリアを可視化し、AIを活用してキャリア形成を支援します。
+        </p>
+    </div>
+
+    <div className="row align-items-center g-4">
+        <div className="col-md-5">
+            <div className="card shadow-sm border-0 rounded-4 h-100">
+                <div className="card-body">
+                    <h4 className="fw-bold">Career Assist</h4>
+                    <ul className="mt-3">
+                        <li>社員検索機能</li>
+                        <li>キャリアツリー閲覧</li>
+                        <li>AI質問箱</li>
+                        <li>キャリアロードマップ作成</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div className="col-md-2 text-center">
+            <h1>→</h1>
+            <p className="fw-semibold">キャリア形成</p>
+        </div>
+
+        <div className="col-md-5">
+            <div className="card shadow-sm border-0 rounded-4 h-100">
+                <div className="card-body">
+                    <h4 className="fw-bold">将来像の具体化</h4>
+                    <ul className="mt-3">
+                        <li>目標キャリアの明確化</li>
+                        <li>必要スキルの把握</li>
+                        <li>ロールモデル発見</li>
+                        <li>具体的な成長計画作成</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* メリット */}
+    <div className="mt-5">
+        <h2 className="text-center fw-bold mb-4">
+            Career Assistのメリット
+        </h2>
+
+        <div className="row g-4">
+            <div className="col-md-4">
+                <div className="card border-0 shadow-sm rounded-4 h-100">
+                    <div className="card-body">
+                        <h5 className="fw-bold">👨‍💻 若手社員</h5>
+                        <ul>
+                            <li>キャリアの選択肢が見える</li>
+                            <li>ロールモデルを発見できる</li>
+                            <li>将来への不安を軽減できる</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md-4">
+                <div className="card border-0 shadow-sm rounded-4 h-100">
+                    <div className="card-body">
+                        <h5 className="fw-bold">🧑‍🏫 先輩社員</h5>
+                        <ul>
+                            <li>経験や知見を共有できる</li>
+                            <li>後輩育成を効率化できる</li>
+                            <li>ナレッジを資産化できる</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md-4">
+                <div className="card border-0 shadow-sm rounded-4 h-100">
+                    <div className="card-body">
+                        <h5 className="fw-bold">🏢 企業</h5>
+                        <ul>
+                            <li>人材育成を促進</li>
+                            <li>知見共有を強化</li>
+                            <li>離職防止に貢献</li>
+                            <li>キャリア自律を支援</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* メッセージ */}
+    <div className="mt-5">
+        <div className="alert alert-light border rounded-4 text-center py-4">
+            <h5 className="fw-bold">
+                キャリアの正解は一つではありません
+            </h5>
+            <p className="mb-0 text-muted">
+                Career Assistは、先輩たちの経験を参考にしながら、
+                自分らしいキャリアを描くための第一歩を支援します。
+            </p>
+        </div>
+    </div>
+</section>
+);
+}
