@@ -826,3 +826,102 @@ return (
 </section>
 );
 }
+
+export default function QuestionFlowSection() {
+return (
+<section className="py-16">
+
+    <h2 className="text-4xl font-bold text-center mb-12">
+        キャリア質問箱で得られること
+    </h2>
+
+    <div className="max-w-4xl mx-auto">
+
+        {/* 若手社員 */}
+        <div className="flex justify-center">
+            <div className="bg-blue-50 border border-blue-200 rounded-3xl p-6 w-72 text-center shadow">
+                <h3 className="font-bold text-xl mb-2">
+                    👨‍💻 若手社員
+                </h3>
+                <p className="text-gray-600">
+                    キャリアについて相談したい
+                </p>
+            </div>
+        </div>
+
+        {/* ↓ */}
+        <div className="text-center text-5xl my-4 text-blue-500">
+            ↓
+        </div>
+
+        {/* 質問箱 */}
+        <div className="flex justify-center">
+            <div className="bg-white border-2 border-indigo-500 rounded-3xl p-8 w-96 text-center shadow-xl">
+                <h3 className="font-bold text-2xl mb-3">
+                    💬 キャリア質問箱
+                </h3>
+
+                <p className="text-gray-600">
+                    匿名で先輩へ質問
+                </p>
+                <p className="text-gray-600">
+                    AIがプロフィールを元に回答支援
+                </p>
+            </div>
+        </div>
+
+        {/* ↑ */}
+        <div className="text-center text-5xl my-4 text-green-500">
+            ↑
+        </div>
+
+        {/* ベテラン社員 */}
+        <div className="flex justify-center mb-12">
+            <div className="bg-green-50 border border-green-200 rounded-3xl p-6 w-72 text-center shadow">
+                <h3 className="font-bold text-xl mb-2">
+                    🧑‍🏫 ベテラン社員
+                </h3>
+                <p className="text-gray-600">
+                    経験や知見を共有する
+                </p>
+            </div>
+        </div>
+
+        {/* メリット */}
+        <div className="grid md:grid-cols-2 gap-6">
+
+            {/* 若手 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8">
+                <h3 className="font-bold text-xl text-blue-600 mb-4">
+                    👨‍💻 若手社員のメリット
+                </h3>
+
+                <ul className="space-y-3">
+                    <li>🎯 目標キャリアの明確化</li>
+                    <li>📈 必要スキルの把握</li>
+                    <li>🧑‍🏫 ロールモデル発見</li>
+                    <li>🚀 キャリアロードマップ作成</li>
+                </ul>
+            </div>
+
+            {/* ベテラン */}
+            <div className="bg-white rounded-3xl shadow-lg p-8">
+                <h3 className="font-bold text-xl text-green-600 mb-4">
+                    🧑‍🏫 ベテラン社員のメリット
+                </h3>
+
+                <ul className="space-y-3">
+                    <li>📚 経験・知見のナレッジ化</li>
+                    <li>🤝 後輩育成への貢献</li>
+                    <li>💬 知見共有の効率化</li>
+                    <li>🏢 組織への価値提供</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+);
+}
