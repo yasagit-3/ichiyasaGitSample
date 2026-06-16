@@ -925,3 +925,123 @@ return (
 </section>
 );
 }
+
+
+<div className="mt-20">
+    <h2 className="text-center text-4xl font-bold mb-4">
+        キャリア質問箱で得られること
+    </h2>
+
+    <p className="text-center text-gray-500 mb-12 max-w-4xl mx-auto">
+        キャリア質問箱は若手社員とベテラン社員をつなぎ、
+        組織全体の知見共有と人材育成を支援します。
+    </p>
+
+    <div className="max-w-6xl mx-auto">
+
+        {/* 横フロー */}
+        <div className="grid md:grid-cols-[1fr_auto_1.2fr_auto_1fr] gap-4 items-center">
+
+            {/* 若手社員 */}
+            <div className="bg-blue-50 border border-blue-200 rounded-3xl shadow p-6 text-center">
+                <h3 className="font-bold text-xl mb-3">
+                    👨‍💻 若手社員
+                </h3>
+
+                <ul className="text-gray-600 space-y-2">
+                    <li>将来像が見えない</li>
+                    <li>必要スキルを知りたい</li>
+                    <li>ロールモデルを探したい</li>
+                </ul>
+            </div>
+
+            {/* → */}
+            <div className="text-5xl text-blue-500 text-center">
+                →
+            </div>
+
+            {/* 質問箱 */}
+            <div className="bg-white border-2 border-indigo-500 rounded-3xl shadow-xl p-8 text-center">
+                <h3 className="font-bold text-2xl mb-4">
+                    💬 キャリア質問箱
+                </h3>
+
+                <p className="text-gray-600">
+                    ベテラン社員のキャリア情報を参考に質問
+                </p>
+
+                <p className="text-gray-600 mt-2">
+                    匿名で相談可能
+                </p>
+
+                <p className="text-gray-600 mt-2">
+                    AIが質問をサポート
+                </p>
+            </div>
+
+            {/* ← */}
+            <div className="text-5xl text-green-500 text-center">
+                ←
+            </div>
+
+            {/* ベテラン社員 */}
+            <div className="bg-green-50 border border-green-200 rounded-3xl shadow p-6 text-center">
+                <h3 className="font-bold text-xl mb-3">
+                    🧑‍🏫 ベテラン社員
+                </h3>
+
+                <ul className="text-gray-600 space-y-2">
+                    <li>経験・知見を共有</li>
+                    <li>後輩育成に貢献</li>
+                    <li>ナレッジを蓄積</li>
+                </ul>
+            </div>
+
+        </div>
+
+        {/* 組織 */}
+        <div className="flex justify-center mt-8">
+
+            <div className="text-5xl text-purple-500">
+                ↓
+            </div>
+
+        </div>
+
+        <div className="flex justify-center mt-4">
+            <div className="bg-purple-50 border border-purple-200 rounded-3xl shadow-lg p-8 w-[700px]">
+
+                <h3 className="font-bold text-2xl text-center mb-6">
+                    🏢 組織への価値
+                </h3>
+
+                <div className="grid grid-cols-3 gap-6 text-center">
+
+                    <div>
+                        <div className="text-4xl mb-2">📚</div>
+                        <p className="font-semibold">
+                            ナレッジ蓄積
+                        </p>
+                    </div>
+
+                    <div>
+                        <div className="text-4xl mb-2">🚀</div>
+                        <p className="font-semibold">
+                            人材育成促進
+                        </p>
+                    </div>
+
+                    <div>
+                        <div className="text-4xl mb-2">🤝</div>
+                        <p className="font-semibold">
+                            知見共有文化
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
