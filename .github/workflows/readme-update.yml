@@ -1,0 +1,22 @@
+name: Notify on README Update
+
+# どのタイミングで実行するか
+on:
+  push:
+    paths:
+      - 'README.md' # README.mdファイルに変更があったプッシュのみ対象
+
+
+# 実行する内容
+jobs:
+  notify:
+    runs-on: ubuntu-latest # 実行する環境(Linux)
+
+    steps:
+      # 実行する具体的なコマンド
+      - name: Print a message
+        run: |
+          echo "README.mdが更新されました！"
+          echo "現在のブランチ名：${{github.ref}}"
+          echo "ファイル一覧"
+          ls -la
